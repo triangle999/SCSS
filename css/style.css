@@ -79,7 +79,7 @@ section {
 }
 
 .container__card:nth-child(n+1) {
-  background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
   width: 18vw;
   height: 79vh;
   text-align: justify;
@@ -87,14 +87,14 @@ section {
 }
 
 .container__card:nth-child(n+2) {
-  background: rlinear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
   width: 18vw;
   height: 79vh;
   text-align: justify;
 }
 
 .container__card:nth-child(n+3) {
-  background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
   width: 18vw;
   height: 81vh;
   text-align: justify;
@@ -212,19 +212,19 @@ footer {
     height: 100%;
   }
   .container__card:nth-child(n+1) {
-    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
     width: 84vw;
     height: 99vh;
     text-align: justify;
   }
   .container__card:nth-child(n+2) {
-    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
     width: 84vw;
     height: 95vh;
     text-align: justify;
   }
   .container__card:nth-child(n+3) {
-    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    background: linear-gradient(178deg, rgb(255, 238, 238) 0%, rgb(242, 230, 225) 28%, rgb(196, 182, 182) 84%, rgb(184, 170, 170) 100%);
     width: 84vw;
     height: 95vh;
     text-align: justify;
