@@ -1,0 +1,255 @@
+@font-face {
+  font-family: "AlfaSlabOne-Regular";
+  src: url(/font/AlfaSlabOne-Regular.ttf);
+}
+body {
+  font-family: "League Spartan", sans-serif;
+  background: url(/images/fond.webp);
+}
+
+hr + span {
+  margin-left: 85%;
+  width: 10em;
+  padding-left: 4em;
+}
+
+h1 {
+  color: grey;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+}
+
+span {
+  background-color: black;
+  color: whitesmoke;
+}
+
+nav {
+  display: flex;
+  font-family: "AlfaSlabOne-Regular";
+  align-items: center;
+}
+
+.logo img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.logo {
+  margin-right: 2em;
+}
+
+.titles {
+  font-size: 2em;
+  height: 10em;
+}
+
+.titles h2 {
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  word-break: break-all;
+  font-size: 1.6em;
+  padding: 0.3em;
+}
+
+.titles h3 {
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+
+section {
+  justify-items: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 3em;
+  width: 70vw;
+  height: 88vh;
+  justify-items: center;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+.container__card:nth-child(n+1) {
+  background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  width: 18vw;
+  height: 79vh;
+  text-align: justify;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+
+.container__card:nth-child(n+2) {
+  background: rlinear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  width: 18vw;
+  height: 79vh;
+  text-align: justify;
+}
+
+.container__card:nth-child(n+3) {
+  background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+  width: 18vw;
+  height: 81vh;
+  text-align: justify;
+}
+
+.container__card:nth-child(n+3) h3 {
+  height: 11rem;
+  width: 19.7rem;
+  font-size: 3.7em;
+}
+
+.container__card h3 {
+  background-color: black;
+  color: whitesmoke;
+  height: 9rem;
+  width: 19.7rem;
+  font-variant-caps: all-petite-caps;
+  margin: 0.2em 0.2em 0.2em 0.2em;
+  font-size: 3.3em;
+  word-break: keep-all;
+  border-radius: 5px;
+}
+
+.container__card--cadre {
+  justify-items: center;
+}
+
+.text-cadre {
+  position: relative;
+  margin-top: -1.7em;
+  margin-bottom: 1em;
+  color: whitesmoke;
+  background-color: rgb(226, 73, 73);
+  align-content: center;
+  text-align: center;
+  height: 1.5em;
+  width: 12.5em;
+}
+
+.corp {
+  font-size: larger;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container__card button {
+  display: flex;
+  justify-items: flex-end;
+  background-color: rgb(104, 12, 12);
+  color: whitesmoke;
+  font-weight: 600;
+  margin-left: 70%;
+}
+
+.triangle {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin-left: 0.5em;
+  transform: rotate(45deg);
+}
+
+footer {
+  height: 12vh;
+  width: 98Vw;
+  justify-items: center;
+  align-content: center;
+  background-color: rgb(31, 31, 78);
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 414px) {
+  hr + span {
+    width: 22%;
+    padding-left: 0;
+    position: absolute;
+    right: 0;
+  }
+  h1 {
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 0.4em;
+  }
+  nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 25em;
+  }
+  .logo img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .logo {
+    margin-right: 0.5em;
+  }
+  .titles {
+    font-size: 0.8em;
+    margin-top: 1em;
+  }
+  .titles h2 {
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    padding: 0.3em;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 84vw;
+    height: 100%;
+  }
+  .container__card:nth-child(n+1) {
+    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    width: 84vw;
+    height: 99vh;
+    text-align: justify;
+  }
+  .container__card:nth-child(n+2) {
+    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    width: 84vw;
+    height: 95vh;
+    text-align: justify;
+  }
+  .container__card:nth-child(n+3) {
+    background: linear-gradient(178deg, rgb(209, 208, 208) 0%, rgb(212, 212, 212) 28%, rgb(202, 202, 202) 84%, rgb(179, 179, 179) 100%);
+    width: 84vw;
+    height: 95vh;
+    text-align: justify;
+  }
+  .container__card h3 {
+    background-color: black;
+    color: whitesmoke;
+    height: 1em;
+    width: 11.5em;
+    font-variant-caps: all-petite-caps;
+    margin: 0.2em 0.2em 0.2em 0.2em;
+    font-size: 1.3em;
+    border-radius: 5px;
+    justify-items: center;
+    margin-left: 2.5em;
+  }
+  .container__card:nth-child(n+3) h3 {
+    height: 1em;
+    width: 11.5em;
+    font-size: 1.3em;
+  }
+  footer {
+    height: 12vh;
+    width: 96Vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
